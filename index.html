@@ -9,12 +9,15 @@
     </head>
     <body>
         <h1>Welcome To The Little Taco Shop</h1>
-        <ul>
-            <li><a href="#About LTS">About LTS</a></li>
-            <li><a href="#Our Menu">Our Menu</a></li>
-            <li><a href="#Store hours">Store Hours</a></li>
-            <li><a href="#Contact us">Contact us</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="#About LTS">About LTS</a></li>
+                <li><a href="#Our Menu">Our Menu</a></li>
+                <li><a href="hours.html">Store Hours</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </nav>
+            
         <figure>
         <img src="Taco_and_drink.jpeg" alt="Tacoanddrink" title="Tacoshop" width="400" height="267" loading="lazy">
         <figcaption>
@@ -22,9 +25,17 @@
         </figcaption>
         </figure>
         <hr>
-        <h2>About LTS</h2>
-        <p>LTS was founded in 2022. Our shop was built from a <strong>love of Tacos</strong>. We hope our shop adds a unique and interesting place to our little town.</p>
+        <section id="About LTS">
+            <h2>About LTS</h2>
+            <p>LTS was founded in 2022. Our shop was built from a <strong>love of Tacos</strong>. We hope our shop adds a unique and interesting place to our little town.</p>
+            <h3>Taco Trivia</h3>
+            <details>
+                <summary>When did Tacos first appear in the United States?</summary>
+                <p>Jeffery M Pilcher, taco historian and professor of history at University of Minnesota says that the earliest mention of tacos in the United States are in a newspaper from 1905.</p>
+            </details>
+        </section>
         <hr>
+        <section id="Our Menu">
         <h2>Our Menu</h2>
         <table>
             <caption>Our Tacos</caption>
@@ -67,6 +78,8 @@
                 <td colspan="3">Chips and Salsa $2</td>
             </tfoot>
         </table>
+        </section>
+        <br>
         <a href="#">Back to top</a>
         <hr>
         Copyright &copy;The Little Taco Shop
